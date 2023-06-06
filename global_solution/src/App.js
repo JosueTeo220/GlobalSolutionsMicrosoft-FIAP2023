@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 import Home from './pages/PaginaInicial';
 import FaleConosco from './pages/Contato';
 import Navbar from './components/Navbar';
@@ -6,15 +6,15 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
     <Navbar/>
       <Routes>
-        <Route path='/' ></Route>
-        <Route path='/'></Route>
+        <Route path='/' element={Home}></Route>
+        <Route path='/faleconosco' element={FaleConosco}></Route>
         <Route path='/'></Route>
         <Route path='/'></Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 

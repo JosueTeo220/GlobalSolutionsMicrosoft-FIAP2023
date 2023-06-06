@@ -2,9 +2,7 @@ import Conteudo from "../components/Conteudo"
 
 function Home(){
     return(
-        <Conteudo>
-            <p>Pagina Inicial</p>
-        </Conteudo>
+        <p>Pagina Inicial</p>
     )
 }
 export default Home
