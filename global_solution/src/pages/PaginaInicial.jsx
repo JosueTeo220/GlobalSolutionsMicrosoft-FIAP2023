@@ -1,8 +1,12 @@
-import Conteudo from "../components/Conteudo"
+import React from "react";
 
-function Home(){
-    return(
-        <p>Pagina Inicial</p>
-    )
+
+function Home() {
+  return (
+    
+      <p>Pagina Inicial</p>
+    
+  );
 }
-export default Home
+
+export default Home;

@@ -11,12 +11,6 @@ function Navbar() {
           <li>
             <Link to="/faleconosco">Fale Conosco</Link>
           </li>
-          <li>
-            <Link to="">Fale Conosco</Link>
-          </li>
-          <li>
-            <Link to="">Fale Conosco</Link>
-          </li>
         </ul>
       </nav>
     </div>
