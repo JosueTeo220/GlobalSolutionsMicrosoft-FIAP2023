@@ -6,39 +6,29 @@ export default function Burger() {
     <div className="burgerContainer">
       <div className="menu-brand-container">
         <Link id="menu-brand" to="/">
-          {" "}
           Global Solution 2023
         </Link>
       </div>
       <Menu right>
-        <div className="containerLinks">
-          <Link className="bm-item-list" to="/">
-            Inicio
-          </Link>
-        </div>
-        <div className="containerLinks">
-          <Link id="" className="bm-item-list" to="/faleconosco">
-            Fale Conosco
-          </Link>
-        </div>
+        <Link className="bm-item-list" to="/">
+          Inicio
+        </Link>
 
-        <div className="containerLinks">
-          <Link id="" className="bm-item-list" to="/fatos">
-            Fatos
-          </Link>
-        </div>
+        <Link id="" className="bm-item-list" to="/faleconosco">
+          Fale Conosco
+        </Link>
 
-        <div className="containerLinks">
-          <Link id="" className="bm-item-list" to="/inseguranca">
-            Insegurança
-          </Link>
-        </div>
+        <Link id="" className="bm-item-list" to="/fatos">
+          Fatos
+        </Link>
 
-        <div className="containerLinks">
-          <Link id="" className="bm-item-list" to="/agricultura-sustentavel">
-            Agricultura Sustentavel
-          </Link>
-        </div>
+        <Link id="" className="bm-item-list" to="/inseguranca">
+          Insegurança
+        </Link>
+
+        <Link id="" className="bm-item-list" to="/agricultura-sustentavel">
+          Agricultura Sustentavel
+        </Link>
       </Menu>
     </div>
   );

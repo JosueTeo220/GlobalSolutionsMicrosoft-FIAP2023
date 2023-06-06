@@ -1,6 +1,6 @@
 import './conteudo.css'
 const Conteudo = ({ children }) => {
-  return <div className="content" >{children}</div>;
+  return <div className="container-fluid content" >{children}</div>;
 };
 
 export default Conteudo;

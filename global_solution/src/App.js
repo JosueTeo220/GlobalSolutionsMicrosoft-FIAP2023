@@ -9,8 +9,11 @@ import './index.css'
 
 
 function App() {
+  const bg ={
+    backgroundColor: 'white'
+  }
   return (
-   <div>
+   <div style={bg}>
     <Router>
       <Navbar />
       <Routes>
@@ -20,6 +23,7 @@ function App() {
         <Route path='/fatos' element={<Fatos />}></Route>
         <Route path='/agricultura-sustentavel' element={<AgriculturaSustentavel />}></Route>
       </Routes>
+      
     </Router>
   </div>
   );

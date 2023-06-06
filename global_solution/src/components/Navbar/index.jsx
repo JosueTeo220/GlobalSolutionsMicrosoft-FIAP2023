@@ -1,5 +1,4 @@
-import "./navbar.css";
-import useResizeHandler from "../../script";
+import {useResizeHandler} from "../../script";
 import MenuLinks from "../MenuLinks";
 import Burger from "../BurgerMenu";
 function Navbar() {

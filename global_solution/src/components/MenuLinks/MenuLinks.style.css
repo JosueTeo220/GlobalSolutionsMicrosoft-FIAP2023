@@ -1,0 +1,63 @@
+.main-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 41px;
+  background-color: #373a47;
+}
+
+
+.nav-brand-container{
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+  padding: 15px;
+  width: fit-content;
+}
+.brand-text {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Source Code Pro", monospace;
+}
+
+.list-menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.list-menu li {
+  margin-right: 40px;
+}
+
+.list-menu li a {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1em;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.list-menu li a:hover {
+  color: #6d98ba;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 970px) {
+  .main-container {
+    padding: 41px 2px;
+  }
+
+  .list-menu li a {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 1300px){
+  .nav-brand-container{
+    padding: 7px;
+  }
+}
