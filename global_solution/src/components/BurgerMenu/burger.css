@@ -1,73 +1,92 @@
-/* Position and sizing of burger button */
+.menu-brand-container{
+  padding: 40px 40px 40px;
+  position: absolute;
+}
+#menu-brand{
+  font-size: large;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 700;
+}
+#menu-brand:hover{
+  font-size: large;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 700;
+}
+.containerLinks:hover{
+  border-bottom: 1px solid;
+  border-color: #fff;
+  color: #6D98BA;
+  
+}
+
 .bm-burger-button {
-    position: fixed;
-    width: 36px;
-    height: 30px;
-    right: 36px;
-    top: 36px;
-  }
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #fdfeff;
+}
+
+.bm-burger-bars-hover {
+  background: #d9d9d9;
+  transition: background 1s ease-in-out;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100vh;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  height: 100%;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  overflow: hidden;
+  color: #fff;
   
-  /* Color/shape of burger icon bars */
-  .bm-burger-bars {
-    background: #fdfeff;
-  }
-  
-  /* Color/shape of burger icon bars on hover*/
-  .bm-burger-bars-hover {
-    background: #181767;
-    transition: background 2s ease-in-out;
-  }
-  
-  /* Position and sizing of clickable cross button */
-  .bm-cross-button {
-    height: 24px;
-    width: 24px;
-  }
-  
-  /* Color/shape of close button cross */
-  .bm-cross {
-    background: #bdc3c7;
-  }
-  
-  /*
-  Sidebar wrapper styles
-  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-  */
-  .bm-menu-wrap {
-    position: fixed;
-    height: 100vh;
-  }
-  
-  /* General sidebar styles */
-  .bm-menu {
-    background: #373a47;
-    padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
-    height: 100%;
-  }
-  
-  /* Morph shape necessary with bubble or elastic */
-  .bm-morph-shape {
-    fill: #373a47;
-  }
-  
-  /* Wrapper for item list */
-  .bm-item-list {
-    color: #b8b7ad;
-    padding: 0.8em;
-  }
-  
-  /* Individual item */
-  .bm-item {
-    display: inline-block;
-  }
-  
-  /* Styling of overlay */
-  .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
-  }
-  .burgerContainer {
-    
-    background-color: #373a47;
-    height: 100px;
-  }
+}
+.bm-item {
+  padding: 0.8em;
+  display: inline-block;
+}
+.bm-item:hover {
+  color: aqua;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.burgerContainer {
+  background-color: #373a47;
+  height: 100px;
+}
