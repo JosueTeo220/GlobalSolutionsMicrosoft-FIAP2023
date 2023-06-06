@@ -1,21 +1,29 @@
-import { push as Menu } from "react-burger-menu";
+import { slide as Menu } from "react-burger-menu";
+import { Link } from "react-router-dom";
 import "./burger.css";
 export default function Burger() {
   return (
     <div className="burgerContainer">
       <Menu right>
-          <a id="home" className="menu-item" href="/">
-            Home
-          </a>
-          <a id="about" className="menu-item" href="/about">
-            About
-          </a>
-          <a id="contact" className="menu-item" href="/contact">
-            Contact
-          </a>
-          <a className="menu-item--small" href="/">
-            Settings
-          </a>
+        <Link id="home" className="bm-item-list" to="/">
+          Inicio
+        </Link>
+        <Link id="about" className="bm-item-list" to="/faleconosco">
+          Fale Conosco
+        </Link>
+        <Link id="contact" className="bm-item-list" to="/fatos">
+          Fatos
+        </Link>
+        <Link id="contact" className="bm-item-list" to="/inseguranca">
+          Insegurança
+        </Link>
+        <Link
+          id="contact"
+          className="bm-item-list"
+          to="/agricultura-sustentavel"
+        >
+          Agricultura Sustentavel
+        </Link>
       </Menu>
     </div>
   );
