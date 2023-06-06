@@ -3,10 +3,9 @@
     position: absolute;
     width: 36px;
     height: 30px;
-    left: initial;
+    left: 36px;
     top: 36px;
     z-index: 1;
-    right: 0px;
   }
   
   /* Color/shape of burger icon bars */
@@ -67,5 +66,6 @@
     background: rgba(0, 0, 0, 0.3);
   }
   .burgerContainer {
-    justify-content: end;
+    display: flex;
+    margin: 0;
   }

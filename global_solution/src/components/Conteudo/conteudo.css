@@ -1,2 +1,5 @@
 .content{
+    padding: 0;
+    display: flex;
+    margin: 0;
 }

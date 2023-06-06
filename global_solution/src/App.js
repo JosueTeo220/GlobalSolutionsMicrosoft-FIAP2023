@@ -5,15 +5,12 @@ import Navbar from './components/Navbar';
 import Inseguranca from './pages/Inseguranca';
 import Fatos from './pages/Fatos';
 import AgriculturaSustentavel from './pages/AgriculturaSustentavel';
+import './index.css'
 
 
 function App() {
   return (
    <div>
-    <header></header>
-    <section></section>
-    <footer></footer>
-    
     <Router>
       <Navbar />
       <Routes>

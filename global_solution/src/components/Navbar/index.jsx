@@ -22,13 +22,13 @@ function Navbar() {
     };
   }, []);
   return (
-    <>
+    <div>
       {showComponent ? (
         <MenuLinks/>
       ) : (
         <Burger/>
       )}
-    </>
+    </div>
   );
 }
 export default Navbar;
