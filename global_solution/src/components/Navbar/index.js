@@ -11,6 +11,15 @@ function Navbar() {
           <li>
             <Link to="/faleconosco">Fale Conosco</Link>
           </li>
+          <li>
+            <Link to="/fatos">Fatos</Link>
+          </li>
+          <li>
+            <Link to="/inseguranca">Insegurança</Link>
+          </li>
+          <li>
+            <Link to="/agricultura-sustentavel">Agricultura Sustentavel</Link>
+          </li>
         </ul>
       </nav>
     </div>
