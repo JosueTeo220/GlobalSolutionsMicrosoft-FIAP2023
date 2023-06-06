@@ -5,6 +5,11 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
+   <div>
+    <header></header>
+    <section></section>
+    <footer></footer>
+    
     <Router>
       <Navbar />
       <Routes>
@@ -12,6 +17,7 @@ function App() {
         <Route path="/faleconosco" element={<FaleConosco/>}></Route>
       </Routes>
     </Router>
+  </div>
   );
 }
 
