@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 import Home from './pages/PaginaInicial';
 import FaleConosco from './pages/Contato';
 import Navbar from './components/Navbar';
-import Conteudo from './components/Conteudo';
 import Inseguranca from './pages/Inseguranca';
 import Fatos from './pages/Fatos';
 import AgriculturaSustentavel from './pages/AgriculturaSustentavel';
