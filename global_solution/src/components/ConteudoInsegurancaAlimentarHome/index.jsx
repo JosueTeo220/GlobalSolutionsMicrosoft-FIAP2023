@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import imagemFatos from "../../assets/img/imagem_conteudo_001.jpeg";
-import './ConteudoInsegurancaAlimentar.style.css'
 
 function ConteudoInsegurancaAlimentarHome() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import './AgriculturaSustentavel.style.css'
+import "./AgriculturaSustentavel.style.css";
 import { useSpring, animated } from "react-spring";
 
 const ODS2Component = () => {
@@ -22,8 +22,8 @@ const ODS2Component = () => {
         style={{ ...fadeAnimation, backgroundColor: "black", color: "white" }}
       >
         <h2>
-          <span>Objetivo de Desenvolvimento Sustentável 2</span>: Fome zero e agricultura
-        
+          <span>Objetivo de Desenvolvimento Sustentável 2</span>: Fome zero e
+          agricultura
         </h2>
         <div className="ods2-goals">
           <h3>1° Meta</h3>
@@ -83,7 +83,23 @@ const ODS2Component = () => {
             </p>
           </animated.div>
         </div>
+        <p className="container-md" style={{paddingTop: "100px"}}>
+        A fome é uma das questões mais urgentes que enfrentamos hoje. Milhões de
+        pessoas em todo o mundo sofrem de desnutrição crônica, enquanto
+        toneladas de alimentos são desperdiçadas todos os dias. O ODS 2 tem como
+        objetivo mudar essa realidade, garantindo que todas as pessoas tenham
+        acesso a uma alimentação adequada, nutritiva e suficiente para levar uma
+        vida saudável e produtiva. A agricultura desempenha um papel fundamental
+        na erradicação da fome. No entanto, a agricultura atual enfrenta muitos
+        desafios, incluindo mudanças climáticas, degradação ambiental, falta de
+        acesso a recursos e tecnologias adequadas, e desigualdades no sistema
+        alimentar. Para atingir o ODS 2, é necessário adotar abordagens
+        sustentáveis na agricultura, que levem em consideração não apenas a
+        produção de alimentos, mas também a proteção do meio ambiente e o
+        respeito pelos direitos dos agricultores.
+      </p>
       </animated.div>
+      
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import ODS2Component from "../components/AgriculturaSustentavel";
+import ODS2Component from "../components/AgriculturaSustentavelComponent";
 import Conteudo from "../components/Conteudo";
 
 function AgriculturaSustentavel() {

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./burger.css";
 export default function Burger() {
   return (
-    <div className="burgerContainer">
+      <div className="burgerContainer">
       <div className="menu-brand-container">
         <Link id="menu-brand" to="/">
           Global Solution 2023
@@ -29,5 +29,6 @@ export default function Burger() {
         </Link>
       </Menu>
     </div>
+    
   );
 }

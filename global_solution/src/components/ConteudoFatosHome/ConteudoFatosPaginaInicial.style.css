@@ -9,21 +9,18 @@ span {
 
 .main_container{
     margin-top: 130px;
+    margin-bottom: 200px;
 }
 .image-container {
   position: relative;
   display: inline-block;
 }
 .image-container img {
-    border-radius: 20px;
+    border-radius: 90px;
     height: 400px;
     padding: 30px;
-    box-shadow: 2px 2px 2px #616161;
     background-color: white;
   }
-.backgroundDark img{
-    background-color: black;
-}
 .image-container .button-style {
   position: absolute;
   bottom: 20px;
@@ -43,7 +40,7 @@ span {
 }
 .icon-container img{
     width: fit-content;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: white;
   }
 .icon-container{
