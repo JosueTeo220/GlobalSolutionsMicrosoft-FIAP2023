@@ -1,4 +1,3 @@
-import React from "react";
 import Conteudo from "../components/Conteudo";
 import HeaderHome from "../components/HeaderHome";
 import ConteudoFatosHome from "../components/ConteudoFatosHome";
@@ -7,21 +6,22 @@ import ConteudoInsegurancaAlimentarHome from "../components/ConteudoInsegurancaA
 import HeaderAgriculturaSustentavelHome from "../components/HeaderAgriculturaSustentavelHome";
 import ConteudoAgriculturaSustentavelHome from "../components/ConteudoAgriculturaSustentavelHome";
 import ConteudoIaHome from "../components/ConteudoIaHome";
-
 import HeaderIaHome from "../components/HeaderIaHome";
+import '../style/PaginaInicial.style.css';
 
 function Home() {
   const backgroundDark = {
     backgroundColor: "black",
   };
+
   return (
     <div style={backgroundDark}>
       <Conteudo>
         <header>
-          <HeaderHome />
+          <HeaderHome/>
         </header>
         <section>
-          <ConteudoFatosHome />
+          <ConteudoFatosHome/>
           <HeaderInsegurancaHome/>
           <ConteudoInsegurancaAlimentarHome/>
           <HeaderAgriculturaSustentavelHome/>

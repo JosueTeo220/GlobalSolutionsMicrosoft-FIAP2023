@@ -1,0 +1,21 @@
+/* styles.css */
+.animate-on-focus {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .animate-on-focus.animate {
+    opacity: 1;
+  }
+  
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .animate-on-scroll.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

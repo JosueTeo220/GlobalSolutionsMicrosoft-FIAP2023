@@ -1,0 +1,16 @@
+h3{
+    padding: 20px;
+}
+.ods2-container h2 span{
+    border-bottom: 1px solid #79cd12;
+    color: green
+}
+.ods-container{
+    background-color: black;
+}
+.ods2-goals{
+    width: fit-content;
+}
+.ods2-goals h3{
+    color: #79cd12;
+}
