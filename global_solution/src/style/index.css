@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=Roboto:wght@500;700&family=Source+Code+Pro:wght@400;500;700&family=Ubuntu&display=swap');/* 
+font-rules{
+  font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Ubuntu', sans-serif;
+} 
+*/
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Cor da barra de rolagem */
+  border-radius: 4px; /* Bordas arredondadas da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Cor da barra de rolagem ao passar o mouse */
+}
+
+
+.scrollable-content::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Cor do thumb do scroll ao passar o mouse */
+}

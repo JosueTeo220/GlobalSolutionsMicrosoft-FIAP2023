@@ -14,20 +14,18 @@ export default function Burger() {
           Inicio
         </Link>
 
-        <Link id="" className="bm-item-list" to="/faleconosco">
-          Fale Conosco
-        </Link>
-
         <Link id="" className="bm-item-list" to="/fatos">
-          Fatos
+          Fatos da Fome
         </Link>
 
         <Link id="" className="bm-item-list" to="/inseguranca">
-          Insegurança
+          Insegurança Alimentar
         </Link>
-
         <Link id="" className="bm-item-list" to="/agricultura-sustentavel">
-          Agricultura Sustentavel
+          Agricultura Sustentável
+        </Link>
+        <Link id="" className="bm-item-list" to="/ia">
+          AI no combate a Fome
         </Link>
       </Menu>
     </div>

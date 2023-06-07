@@ -4,7 +4,7 @@ export function useResizeHandler () {
   const [showComponent, setShowComponent] = useState(true);
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 765) {
+      if (window.innerWidth <= 780) {
         setShowComponent(false);
       } else {
         setShowComponent(true);

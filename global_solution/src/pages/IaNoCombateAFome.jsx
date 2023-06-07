@@ -1,10 +1,10 @@
 import Conteudo from "../components/Conteudo"
 
-function FaleConosco(){
+function IaNoCombateAFome(){
     return(
         <Conteudo>
-            <p>Fale Conosco</p>
+            <p>IA No combate a fome</p>
         </Conteudo>
     )
 }
-export default FaleConosco
+export default IaNoCombateAFome

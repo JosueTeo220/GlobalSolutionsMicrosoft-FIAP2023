@@ -3,7 +3,7 @@ import Conteudo from "../components/Conteudo";
 import HeaderPaginaInicial from "../components/HeaderPaginaInicial";
 import ConteudoFatosPaginaInicial from "../components/ConteudoFatosPaginaInicial";
 import HeaderInsegurancaHome from "../components/HeaderInsegurancaHome";
-import ConteudoInsegurancaAlimentar from "../components/ConteudoInsegurancaAlimentar";
+import ConteudoInsegurancaAlimentarPaginaInicial from "../components/ConteudoInsegurancaAlimentarPaginaInicial";
 
 function Home() {
   const backgroundDark = {
@@ -17,10 +17,8 @@ function Home() {
         </header>
         <section>
           <ConteudoFatosPaginaInicial />
-        </section>
-        <HeaderInsegurancaHome/>
-        <section>
-          <ConteudoInsegurancaAlimentar/>
+          <HeaderInsegurancaHome/>
+          <ConteudoInsegurancaAlimentarPaginaInicial/>
         </section>
       </Conteudo>
     </div>

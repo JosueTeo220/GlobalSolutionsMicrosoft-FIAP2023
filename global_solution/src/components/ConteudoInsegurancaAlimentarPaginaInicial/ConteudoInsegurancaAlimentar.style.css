@@ -34,18 +34,16 @@ span {
   color: white;
   text-decoration: none;
   font-family: "Source Code Pro", monospace;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 4px;
 }
 
 .image-container .button-style:hover {
   background-color: #6f1212;
 }
-.icon-container img{
-    width: fit-content;
+.icon-container img {
     border-radius: 10px;
+    margin: 50px 0px 100px;
     background-color: white;
   }
-.icon-container{
-  margin: 100px 0px 100px;
-}
+  

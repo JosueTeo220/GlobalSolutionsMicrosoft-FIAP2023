@@ -19,7 +19,7 @@ export default function MenuLinks() {
               <Link to="/agricultura-sustentavel">Agricultura Sustentavel</Link>
             </li>
             <li>
-              <Link to="/faleconosco">Fale Conosco</Link>
+              <Link to="/ia">IA no Combate a fome</Link>
             </li>
           </ul>
         </nav>

@@ -5,7 +5,7 @@
   align-items: center;
   width: 100%;
   padding: 41px;
-  background-color: #373a47;
+  background-color: #262830;
 }
 
 
@@ -22,7 +22,9 @@
   text-decoration: none;
   font-family: "Source Code Pro", monospace;
 }
-
+.brand-text:hover{
+  color: #d9d9d9;
+}
 .list-menu {
   display: flex;
   justify-content: center;
@@ -47,13 +49,13 @@
   transition: all 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1000px) {
   .main-container {
     padding: 41px 2px;
   }
 
   .list-menu li a {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 }
 @media screen and (max-width: 1300px){
