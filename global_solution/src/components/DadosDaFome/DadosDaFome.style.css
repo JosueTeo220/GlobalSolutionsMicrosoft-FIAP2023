@@ -1,0 +1,29 @@
+.hunger-statistics {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .hunger-statistics h2 {
+    color: #fff;
+  }
+  
+  .hunger-statistics ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hunger-statistics li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .hunger-statistics li span:first-child {
+    font-weight: bold;
+  }
+  
+  .hunger-statistics li span:last-child {
+    color: #aaa;
+  }
+  

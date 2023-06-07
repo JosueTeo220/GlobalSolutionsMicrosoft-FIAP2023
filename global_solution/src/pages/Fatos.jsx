@@ -1,10 +1,16 @@
 import Conteudo from "../components/Conteudo";
+import DadosDaFome from "../components/DadosDaFome";
 
-function Fatos(){
-    return(
-        <Conteudo>
-            <p>Fatos</p>
-        </Conteudo>
-    )
+function Fatos() {
+  const backgroundDark = {
+    backgroundColor: "black",
+  };
+  return (
+    <div style={backgroundDark}>
+      <Conteudo>
+        <DadosDaFome/>
+      </Conteudo>
+    </div>
+  );
 }
-export default Fatos
+export default Fatos;
