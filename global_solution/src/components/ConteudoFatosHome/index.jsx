@@ -3,7 +3,7 @@ import "./ConteudoFatosPaginaInicial.style.css";
 import imagemFatos from "../../assets/img/imagem_conteudo_003.jpeg";
 import IconDown from "../../assets/icons/expand_more_FILL1_wght400_GRAD0_opsz48.png";
 
-function ConteudoFatosPaginaInicial() {
+function ConteudoFatosHome() {
   return (
     <div className="container-fluid text-center pb-4 main_container">
       <div className="row">
@@ -49,4 +49,4 @@ function ConteudoFatosPaginaInicial() {
   );
 }
 
-export default ConteudoFatosPaginaInicial;
+export default ConteudoFatosHome;

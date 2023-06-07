@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import imagemFatos from "../../assets/img/imagem_conteudo_001.jpeg";
 import './ConteudoInsegurancaAlimentar.style.css'
 
-function ConteudoInsegurancaAlimentarPaginaInicial() {
+function ConteudoInsegurancaAlimentarHome() {
   return (
     <div className="container-fluid text-center pb-4">
       <div className="row">
@@ -33,4 +33,4 @@ function ConteudoInsegurancaAlimentarPaginaInicial() {
   );
 }
 
-export default ConteudoInsegurancaAlimentarPaginaInicial;
+export default ConteudoInsegurancaAlimentarHome;

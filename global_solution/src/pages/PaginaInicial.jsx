@@ -1,9 +1,14 @@
 import React from "react";
 import Conteudo from "../components/Conteudo";
-import HeaderPaginaInicial from "../components/HeaderPaginaInicial";
-import ConteudoFatosPaginaInicial from "../components/ConteudoFatosPaginaInicial";
+import HeaderHome from "../components/HeaderHome";
+import ConteudoFatosHome from "../components/ConteudoFatosHome";
 import HeaderInsegurancaHome from "../components/HeaderInsegurancaHome";
-import ConteudoInsegurancaAlimentarPaginaInicial from "../components/ConteudoInsegurancaAlimentarPaginaInicial";
+import ConteudoInsegurancaAlimentarHome from "../components/ConteudoInsegurancaAlimentarHome";
+import HeaderAgriculturaSustentavelHome from "../components/HeaderAgriculturaSustentavelHome";
+import ConteudoAgriculturaSustentavelHome from "../components/ConteudoAgriculturaSustentavelHome";
+import ConteudoIaHome from "../components/ConteudoIaHome";
+
+import HeaderIaHome from "../components/HeaderIaHome";
 
 function Home() {
   const backgroundDark = {
@@ -13,12 +18,16 @@ function Home() {
     <div style={backgroundDark}>
       <Conteudo>
         <header>
-          <HeaderPaginaInicial />
+          <HeaderHome />
         </header>
         <section>
-          <ConteudoFatosPaginaInicial />
+          <ConteudoFatosHome />
           <HeaderInsegurancaHome/>
-          <ConteudoInsegurancaAlimentarPaginaInicial/>
+          <ConteudoInsegurancaAlimentarHome/>
+          <HeaderAgriculturaSustentavelHome/>
+          <ConteudoAgriculturaSustentavelHome/>
+          <HeaderIaHome/>
+          <ConteudoIaHome/>
         </section>
       </Conteudo>
     </div>

@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react";
-function HeaderPaginaInicial() {
+function HeaderHome() {
   const [text, setText] = useState("");
   const phrase = "Fome Global";
 
@@ -36,4 +36,4 @@ function HeaderPaginaInicial() {
     </div>
   );
 }
-export default HeaderPaginaInicial;
+export default HeaderHome;
