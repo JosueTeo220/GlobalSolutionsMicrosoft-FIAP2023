@@ -5,7 +5,7 @@ import IconDown from "../../assets/icons/expand_more_FILL1_wght400_GRAD0_opsz48.
 import { getScrollTopH1 } from "../HeaderInsegurancaHome";
 
 function ConteudoFatosHome() {
-  const handleScroll = (newScrollY) => {
+  const handleScroll = () => {
     const getH1 = getScrollTopH1()
       window.scrollTo({
         top: getH1,
@@ -51,7 +51,7 @@ function ConteudoFatosHome() {
           </div>
         </div>
       </div>
-      <div className="icon-container" onClick={() => handleScroll(1388)}>
+      <div className="icon-container" onClick={() => handleScroll()}>
         <img src={IconDown} alt="icon Down" />
       </div>
     </div>
