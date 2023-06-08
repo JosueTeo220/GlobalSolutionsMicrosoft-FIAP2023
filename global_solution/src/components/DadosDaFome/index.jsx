@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import './DadosDaFome.style.css';
 import '../../script'
+import { animateStatistics } from '../../script';
 
 const DadosDaFome = () => {
 
@@ -24,11 +25,7 @@ const DadosDaFome = () => {
     setShowStatistics(!showStatistics);
   };
 
-  useEffect(() => {
-    if (showStatistics) {
-      animate();
-    }
-  }, [showStatistics]);
+  useEffect(() => animateStatistics(showStatistics, animate), [showStatistics]);
 
   const animate = () => {
     const element = document.getElementById('dados-fome');

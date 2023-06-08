@@ -1,18 +1,12 @@
 import React, { useState } from 'react';
 import './InteractiveFoodInsecurity.css';
+import { getStatisticData } from '../../script';
 
 const InsegurancaAlimentar = () => {
   const [regiao, setRegiao] = useState('africa');
   const [gravidade] = useState('Moderada');
 
-  const data = {
-    africa: { blue: 57.9, red: 23.4 },
-    latinAmerica: { blue: 40.6, red: 14.2 },
-    world: { blue: 29.3, red: 9.8 },
-    asia: { blue: 24.6, red: 10.5 },
-    oceania: { blue: 13, red: 4.5 },
-    northAmericaEurope: { blue: 8, red: 1.5 },
-  };
+  const data = getStatisticData()
 
   const handleRegiaoChange = (event) => {
     setRegiao(event.target.value);

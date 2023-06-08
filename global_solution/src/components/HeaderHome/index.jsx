@@ -1,22 +1,11 @@
 import { useState,useEffect } from "react";
+import { prepareCounter } from "../../script";
 function HeaderHome() {
   const [text, setText] = useState("");
   const phrase = "Fome Global";
 
-  useEffect(() => {
-    let counter = 0;
-    const interval = setInterval(() => {
-      if (counter === phrase.length) {
-        clearInterval(interval);
-      }
-      setText(phrase.slice(0, counter));
-      counter++;
-    }, 200);
+  useEffect(() => prepareCounter(phrase, setText), []);
 
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
   const style = {
     color: 'white',
     fontFamily: "'Roboto Mono', monospace",
