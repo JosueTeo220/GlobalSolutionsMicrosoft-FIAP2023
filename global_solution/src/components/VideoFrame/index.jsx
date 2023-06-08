@@ -8,11 +8,10 @@ function VideoFrame() {
       <iframe
           width={'500px'}
           height={'600px'}
-          src="https://www.youtube.com/embed/ORrTV1zREuQ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          src={"https://www.youtube.com/embed/ORrTV1zREuQ"}
+          title={"YouTube video player"}
+          allow={"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"}
+          allowFullScreen
         ></iframe>
       </div>
     </div>
