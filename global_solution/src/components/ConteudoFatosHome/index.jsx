@@ -2,14 +2,20 @@ import { Link } from "react-router-dom";
 import "./ConteudoFatosPaginaInicial.style.css";
 import imagemFatos from "../../assets/img/imagem_conteudo_003.jpeg";
 import IconDown from "../../assets/icons/expand_more_FILL1_wght400_GRAD0_opsz48.png";
-import { useState } from "react";
 
 function ConteudoFatosHome() {
-  const [setScrollPosition] = useState(0);
+  const setPosition = () => {
+    if(window.innerWidth < 1000){
+      return 2000
+    }
+    else{
+      return 1300
+    }
+  }
   const handleScroll = (newScrollY) => {
-      setScrollPosition(newScrollY);
+    
       window.scrollTo({
-        top: newScrollY,
+        top: setPosition(),
         behavior: "smooth",
       })
   };
@@ -52,7 +58,7 @@ function ConteudoFatosHome() {
           </div>
         </div>
       </div>
-      <div className="icon-container" onClick={() => handleScroll(1388)}>
+      <div className="icon-container" onClick={() => handleScroll(1300)}>
         <img src={IconDown} alt="icone Down" />
       </div>
     </div>
