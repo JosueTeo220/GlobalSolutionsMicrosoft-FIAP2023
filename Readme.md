@@ -1,6 +1,6 @@
 # Global Solution 2°Sem
 
-## Verificação de responsividade
+## Instruções
 
 Caro avaliador, verificar a responsividade dimensione a janela do navegador.
 
@@ -10,7 +10,8 @@ Use um npm install para adicionar as dependências do projeto.
 
 Use um npm start para iniciar o projeto
 
-INTEGRANTES DO GRUPO
+## INTEGRANTES DO GRUPO
+
 Andreza Gabriela Devide de Lima
 
 Rodrigo Paixão Silveira
@@ -20,3 +21,7 @@ VILMA REGINA DO NASCIMENTO
 Andre Teixeira Oliveira Salles Rolim
 
 Josué Teobaldo dos Santos
+
+## Link Video Picth
+
+<https://www.youtube.com/embed/ORrTV1zREuQ>
