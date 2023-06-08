@@ -5,7 +5,7 @@ import IconDown from "../../assets/icons/expand_more_FILL1_wght400_GRAD0_opsz48.
 import { useState } from "react";
 
 function ConteudoFatosHome() {
-  const [scrollPosition, setScrollPosition] = useState(0);
+  const [setScrollPosition] = useState(0);
   const handleScroll = (newScrollY) => {
       setScrollPosition(newScrollY);
       window.scrollTo({
@@ -53,7 +53,7 @@ function ConteudoFatosHome() {
         </div>
       </div>
       <div className="icon-container" onClick={() => handleScroll(1388)}>
-        <img src={IconDown} alt="" />
+        <img src={IconDown} alt="icone Down" />
       </div>
     </div>
   );
