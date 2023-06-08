@@ -1,19 +1,19 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import "./FaleConosco.style.css";
+import '../../script'
 
 const FaleConosco = () => {
+  
   const {
     register,
     handleSubmit,
     formState: { errors },
     reset,
   } = useForm();
-
+  
   const onSubmit = (data) => {
-    // Envie as informações ou execute outra ação desejada
     console.log("Informações válidas:", data);
-    // Limpe os campos do formulário
     reset();
   };
 
