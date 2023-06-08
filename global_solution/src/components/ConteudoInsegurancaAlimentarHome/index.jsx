@@ -9,7 +9,7 @@ function ConteudoInsegurancaAlimentarHome() {
           <div className="image-container">
             <img
               src={imagemFatos}
-              alt="imagem fatos da fome"
+              alt="imagem Insegurança"
               className="img-fluid"
             />
             <Link to="/inseguranca" className="button-style">

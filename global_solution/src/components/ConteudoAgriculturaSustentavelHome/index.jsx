@@ -28,7 +28,7 @@ function ConteudoAgriculturaSustentavelHome() {
           <div className="image-container">
             <img
               src={imagemAgricultura}
-              alt="imagem fatos da fome"
+              alt="imagem agricultura"
               className="img-fluid border-2"
             />
             <Link to="/agricultura-sustentavel" className="button-style">

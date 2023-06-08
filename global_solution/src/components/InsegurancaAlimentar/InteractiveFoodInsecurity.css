@@ -20,7 +20,9 @@
   display: flex;
   align-items: flex-end;
   flex-grow: 1;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  width: 50%;
+  margin: auto;
 }
 
 .bar {
@@ -38,6 +40,7 @@
 }
 
 .legend {
+  margin-top: 12px; 
   display: flex;
   justify-content: center;
 }
@@ -78,4 +81,9 @@
 
 .label-select {
   color: #fff;
+}
+@media screen and (max-width: 765px) {
+  .legend {
+    font-size: 12px;
+  }
 }

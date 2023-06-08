@@ -8,6 +8,7 @@ import ConteudoAgriculturaSustentavelHome from "../components/ConteudoAgricultur
 import ConteudoIaHome from "../components/ConteudoIaHome";
 import HeaderIaHome from "../components/HeaderIaHome";
 import '../style/PaginaInicial.style.css';
+import VideoFrame from "../components/VideoFrame";
 
 function Home() {
   const backgroundDark = {
@@ -28,6 +29,7 @@ function Home() {
           <ConteudoAgriculturaSustentavelHome/>
           <HeaderIaHome/>
           <ConteudoIaHome/>
+          <VideoFrame/>
         </section>
       </Conteudo>
     </div>

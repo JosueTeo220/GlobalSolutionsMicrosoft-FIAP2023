@@ -55,7 +55,7 @@ const FaleConosco = () => {
         <div className="form-group">
           <label htmlFor="idade">Idade:</label>
           <input
-            type="text"
+            type="number"
             id="idade"
             className={errors.idade ? "error" : ""}
             {...register("idade", {
@@ -72,7 +72,7 @@ const FaleConosco = () => {
         <div className="form-group">
           <label htmlFor="telefone">Telefone:</label>
           <input
-            type="tel"
+            type="number"
             id="telefone"
             className={errors.telefone ? "error" : ""}
             {...register("telefone", {
